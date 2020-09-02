@@ -51,11 +51,11 @@ public class Config {
                 case "prefix":
                     if(value==null)
                     {
-                        prefix = "";
+                        prefix = "?";
                         LOG.warn("The prefix was defined as empty!");
                     }
                     else
-                        prefix = value;
+                        prefix = ?;
                     break;
                 case "timezone":
                     if(value==null)
